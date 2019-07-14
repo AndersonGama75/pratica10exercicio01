@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Prática 10 - Exercício 01</title>
+		<link rel="stylesheet" href="pratica10exercicio01.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body>
+		
+		<div id="contId" class="container">
+			<div class="logo"><img src="images/logo.png"/></div>
+			<div class="titulo">A melhor agência de viagens!</div>
+
+			<div id="box1" class="box">
+				<table id="tab01" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcRio1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcRio2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcRio3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcRio4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campRio" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag01" class="viag">
+					<img src="images/img01_rio02.jpg" alt="rio"/>
+					<p>Rio de Janeiro</p>
+					<input id="btnRio" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag02" class="viag">
+					<img src="images/img02_jalapao02.jpg" alt="jalapao"/>
+					<p>Jalapão</p>
+					<input id="btnJalap" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab02" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcJalap1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcJalap2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcJalap3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcJalap4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campJalap" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box2" class="box">
+				<table id="tab03" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcBento1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcBento2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcBento3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcBento4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campBento" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag03" class="viag">
+					<img src="images/img03_bento_goncalves02.jpg" alt="bento_goncalves"/>
+					<p>Bento Gonçalves</p>
+					<input id="btnBento" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag04" class="viag">
+					<img src="images/img04_parque_nacional_da_serra_geral02.jpg" alt="serra_geral"/>
+					<p>Parque Nacional da Serra Geral</p>
+					<input id="btnSerraG" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab04" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcSerraG1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcSerraG2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcSerraG3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcSerraG4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campSerraG" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box3" class="box">
+				<table id="tab05" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcRioRastro1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcRioRastro2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcRioRastro3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcRioRastro4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campRioRastro" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag05" class="viag">
+					<img src="images/img05_serra_do_rio_do_rastro02.jpg" alt="serra_do_rio_do_rastro"/>
+					<p>Serra do Rio do Rastro</p>
+					<input id="btnRioRastro" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag06" class="viag">
+					<img src="images/img06_pomerode02.jpg" alt="pomerode"/>
+					<p>Pomerode</p>
+					<input id="btnPomerode" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab06" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcPomerode1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcPomerode2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcPomerode3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcPomerode4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campPomerode" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box4" class="box">
+				<table id="tab07" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcVeadeiros1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcVeadeiros2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcVeadeiros3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcVeadeiros4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campVeadeiros" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag07" class="viag">
+					<img src="images/img07_chapada_dos_veadeiros02.jpg" alt="chapada_dos_veadeiros"/>
+					<p>Chapada dos Veadeiros</p>
+					<input id="btnVeadeiros" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag08" class="viag">
+					<img src="images/img08_punta_del_este02.jpg" alt="punta_del_este"/>
+					<p>Punta del Este</p>
+					<input id="btnPunta" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab08" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcPunta1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcPunta2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcPunta3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcPunta4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campPunta" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box5" class="box">
+				<table id="tab09" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcMontevideo1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcMontevideo2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcMontevideo3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcMontevideo4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campMontevideo" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag09" class="viag">
+					<img src="images/img09_montevideo02.jpg" alt="montevideo"/>
+					<p>Montevideo</p>
+					<input id="btnMontevideo" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag10" class="viag">
+					<img src="images/img10_colonia_do_sacramento01.jpg" alt="colonia_do_sacramento"/>
+					<p>Colônia do Sacramento</p>
+					<input id="btnSacram" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab10" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcSacram1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcSacram2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcSacram3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcSacram4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campSacram" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box6" class="box">
+				<table id="tab11" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcBuenos1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcBuenos2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcBuenos3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcBuenos4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campBuenos" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag11" class="viag">
+					<img src="images/img11_av_9_de_julho_buenos_aires02.jpg" alt="buenos_aires"/>
+					<p>Buenos Aires</p>
+					<input id="btnBuenos" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag12" class="viag">
+					<img src="images/img12_lagoa_misteriosa_bonito02.jpg" alt="bonito"/>
+					<p>Lagoa Misteriosa - Bonito</p>
+					<input id="btnMisteriosa" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab12" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcMisteriosa1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcMisteriosa2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcMisteriosa3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcMisteriosa4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campMisteriosa" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box7" class="box">
+				<table id="tab13" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcArapey1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcArapey2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcArapey3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcArapey4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campArapey" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag13" class="viag">
+					<img src="images/img13_termas_del_arapey_uruguai02.jpg" alt="arapey"/>
+					<p>Termas del Arapey - Uruguai</p>
+					<input id="btnArapey" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag14" class="viag">
+					<img src="images/img14_termas_del_dayman_uruguai02.jpg" alt="dayman"/>
+					<p>Termas del Dayman - Uruguai</p>
+					<input id="btnDayman" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab14" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcDayman1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcDayman2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcDayman3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcDayman4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campDayman" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box8" class="box">
+				<table id="tab15" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcPeri1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcPeri2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcPeri3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcPeri4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campPeri" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag15" class="viag">
+					<img src="images/img15_lagoa_do_peri_florianopolis02.jpg" alt="lagoa_do_peri"/>
+					<p>Lagoa do Peri - Florianópolis</p>
+					<input id="btnPeri" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag16" class="viag">
+					<img src="images/img16_sao_paulo02.jpg" alt="sao_paulo"/>
+					<p>São Paulo</p>
+					<input id="btnSampa" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab16" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcSampa1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcSampa2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcSampa3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcSampa4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campSampa" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="box9" class="box">
+				<table id="tab17" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcJarBot1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcJarBot2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcJarBot3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcJarBot4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campJarBot" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+				<div id="viag17" class="viag">
+					<img src="images/img17_jardim_botanico_curitiba02.jpg" alt="jardim_botanico_curitiba"/>
+					<p>Jardim Botânico - Curitiba</p>
+					<input id="btnJarBot" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+
+				<div id="viag18" class="viag">
+					<img src="images/img18_foz_do_iguacu02.jpg" alt="foz_do_iguacu"/>
+					<p>Foz do Iguaçu</p>
+					<input id="btnFoz" class="btn" type="submit" value="Orçamento" onclick="opcoes(id)" />
+				</div>
+				<table id="tab18" class="tab" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th id="orcFoz1" class="orc" onclick="tabela(id)">Orçamento 1</th>
+							<th id="orcFoz2" class="orc" onclick="tabela(id)">Orçamento 2</th>
+							<th id="orcFoz3" class="orc" onclick="tabela(id)">Orçamento 3</th>
+							<th id="orcFoz4" class="orc" onclick="tabela(id)">Informação Adicional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td id="campFoz" class="celCampo" colspan="4">Campo</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="campInfo">
+				<input class="campMail" type="text" placeholder="Insira o seu e-mail" />
+				<input class="campSenha" type="password" placeholder="Insira a sua senha" />
+				<input class="btnInfo" type="submit" value="Enviar" />
+			</div>
+			<div class="rodape">
+				<p class="pInfo">Mais informações:<br/>Rua das Amendoeiras, nº 7 Bairro: Paraíso - Belo Horizonte/MG<br/><i class="fas fa-phone-volume"> Tel: (31)98765-4321 </i>
+					/ <i class="fas fa-mail-bulk"></i> E-mail: maisviagens@ziriguidum.com.br</p>
+				 
+			</div>
+		</div>
+		<script src="pratica10exercicio01.js"></script>
+
+		<!--<div class="container2">
+			<div id="orc1" class="orcamento">
+				
+			</div>
+		</div>-->
+	</body>
+</html>

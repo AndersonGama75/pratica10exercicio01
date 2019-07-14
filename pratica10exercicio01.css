@@ -1,0 +1,134 @@
+.container {
+	margin: 0 auto;
+	width: 1520px;
+	height: 100%;
+	/* background-color: grey; */
+}
+.viag {
+	float: left;
+	width: 350px;
+}
+.titulo {
+	background-color: #ff4400;
+	width: 720px;
+	height: 100px;
+	text-align: center;
+	font-size: 37px;
+	line-height: 100px;
+	color: white;
+	margin: 0 auto;
+}
+.box {
+	clear: left;
+	margin-bottom: 340px;
+	height: 100%;
+	width: 100%;
+}
+/*#box2 {
+	background-color: blue;
+}
+#box1, #box3 {
+	background-color: orange;
+}*/
+.btn {
+	
+	background-color: #1d7f12;
+	margin-left: 35%;
+	width: 110px;
+	height: 35px;
+	font-size: 18px;
+	cursor: pointer;
+	color: white;
+}
+/*#viag01, #viag02 {
+	position: relative;
+}*/
+p {
+	/*margin: 5px 110px;*/
+	width: 270px;
+	/*background-color: blue;*/
+	text-align: center;
+	margin-left: 12%;
+	font-size: 21px;
+}
+#viag01, #viag03, #viag05, #viag07, #viag09, #viag11, #viag13, #viag15, #viag17 {
+	margin-right: 20px;
+	/*background-color: yellow;*/
+}
+/*#viag02, #viag04, #viag06, #viag08, #viag10, #viag12, #viag14, #viag16, #viag18 {
+	background-color: red;
+}*/
+.logo {
+	/*background-color: yellow;*/
+	width: 360px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+img {
+	width: 350px;
+}
+table {
+	float: left;
+	height: 206px;
+	width: 400px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	
+}
+.orc {
+	background-color: yellow;
+	height: 40px;
+	border: 1px solid black;
+	color: #7f7f7f;
+	font-size: 16px
+}
+.celCampo {
+	background-color: orange;
+	text-align: center;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+th {
+	cursor: pointer;
+}
+#orcRio4, #orcJalap4, #orcBento4, #orcSerraG4, #orcRioRastro4, #orcPomerode4, #orcVeadeiros4, #orcPunta4, #orcMontevideo4, #orcSacram4, #orcBuenos4, #orcMisteriosa4, #orcArapey4, #orcDayman4, #orcPeri4,
+#orcSampa4, #orcJarBot4, #orcFoz4 {
+	width: 100px;
+}
+.campInfo {
+	background-color: #ff4400;
+	width: 720px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.campMail, .campSenha {
+	width: 200px;
+	height: 30px;
+	margin-top: 30px;
+}
+.btnInfo {
+	height: 35px;
+	width: 70px;
+	background-color: #ff8100;
+	color: white;
+}
+.rodape {
+	position: relative;
+	background-color: #696969;
+	width: 720px;
+	height: 120px;
+	margin: 0 auto;
+	
+}
+.pInfo {
+	white-space: nowrap;
+	position: absolute;
+	margin: 0;
+	font-size: 18px;
+	top: 25px;
+	left: 20px;
+	color: white;
+	text-align: left;
+}
